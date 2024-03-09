@@ -1,5 +1,7 @@
 # owa - Organizador de Aplicaciones Web
 
+**Versión: 0.1**
+
 Organizador y lanzador de aplicaciones web.
 De simple configuración y personalización.
 
@@ -17,7 +19,7 @@ De simple configuración y personalización.
 Ubicarse en una carpeta estable, donde pueda permanecer el software.
 
 ```
-git clone ...
+git clone https://github.com/caalma/owa.git
 cd owa
 ./instalar-linux.sh
 ```
@@ -27,10 +29,11 @@ cd owa
 
 Admite varias opciones de acción:
 
-+ Abrir url o id en perfil de usuario activo. Apertura normal. `owa <id o url>`
-+ Abrir url o id en perfil de incognito. `owa p <id o url>`
-+ Abrir url o id en perfil de incognito + tor (disponible en Brave). `owa t <id o url>`
-+ Editar configuración. `owa ec`
-+ Editar urls. `owa eu`
-+ Agregar identificadores de url. `owa a <id> <url>`
-+ Listar identificadores y url disponibles. Admine filtrado. `owa l <id o parte-de-id>`
++ Abrir url o id en perfil de usuario activo. Apertura normal: `owa <id o url>`
++ Abrir url o id en perfil de incognito: `owa p <id o url>`
++ Abrir url o id en perfil de incognito + tor (disponible en Brave): `owa t <id o url>`
++ Editar configuración: `owa ec`
++ Editar urls: `owa eu`
++ Agregar identificadores de url: `owa a <id> <url>`
++ Listar identificadores y url disponibles, con o sin filtrado: `owa l <id o parte-de-id>`
++ Mostrar ayuda: `owa h`
