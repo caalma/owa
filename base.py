@@ -19,8 +19,16 @@ def mostrar_url(i):
     print(f'{i} => {u}')
 
 
-def id_url_valido(tex):
+def idu_valido(tex):
     return tex in [i for i in dir(urls) if not i.endswith('__')]
+
+
+def url_valida(tex):
+    ini = ['http', 'www', 'ftp']
+    for i in ini:
+        if tex.startswith(i):
+            return True
+    return False
 
 
 def listar_urls(args):
