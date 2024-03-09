@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+from os import chdir
+from os.path import dirname, realpath
+from sys import argv
+from base import *
+
+if __name__ == '__main__':
+    chdir(dirname(realpath(__file__)))
+
+    if len(argv) > 1:
+        if argv[1] in ['p', 'privado', 'incognito']:
+            abrir_url(argv[1:], '--incognito')
+        elif argv[1] in ['t', 'tor']:
+            abrir_url(argv[1:], '--incognito --tor')
+        elif argv[1] in ['l', 'listar-urls']:
+            listar_urls(argv[1:])
+        elif argv[1] in ['a', 'agregar-url']:
+            agregar_url(argv[1:])
+        elif argv[1] in ['ec', 'editar-configuracion']:
+            editar('configuracion.py')
+        elif argv[1] in ['eu', 'editar-urls']:
+            editar('urls.py')
+        elif argv[1] in ['h', 'help', 'y', 'ayuda']:
+            ayuda()
+        elif id_url_valido(argv[1]):
+                abrir_url(argv)
