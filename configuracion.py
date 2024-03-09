@@ -1,4 +1,4 @@
 browser = 'chromium'
-editor = 'nano'
+editor = 'emacs'
 
 abrir_como_app = True
