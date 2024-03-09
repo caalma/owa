@@ -1,4 +1,4 @@
-browser = 'brave-browser'
-editor = 'emacs-editor'
+browser = 'chromium'
+editor = 'nano'
 
 abrir_como_app = True
