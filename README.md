@@ -1,4 +1,4 @@
-# owa - Organizador de Aplicaciones Web
+# owa - Organizador de Web-Apps
 
 **Versión: 0.1**
 
@@ -9,7 +9,7 @@ De simple configuración y personalización.
 ## Requisitos
 
 + Python 3
-+ Navegador web que admita apertura de páginas como aplicación. Actualmente esta característica está presente en: Chromium, Chrome, Brave.
++ Navegador de web que admita apertura de páginas en modo aplicación. Actualmente esta característica está presente en: Chromium, Chrome, Brave.
 
 
 ## Cómo instalar
